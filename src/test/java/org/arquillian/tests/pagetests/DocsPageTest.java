@@ -177,7 +177,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Test runners");
+            .navigate().select("Test runners");
 
         docsPage.content()
             .verify()
@@ -190,7 +190,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Deployments");
+            .navigate().select("Deployments");
 
         docsPage.content()
             .verify()
@@ -203,7 +203,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Test enrichers");
+            .navigate().select("Test enrichers");
 
         docsPage.content()
             .verify()
@@ -216,7 +216,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Containers");
+            .navigate().select("Containers");
 
         docsPage.content()
             .verify()
@@ -229,7 +229,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Run modes");
+            .navigate().select("Run modes");
 
         docsPage.content()
             .verify()
@@ -242,7 +242,7 @@ public class DocsPageTest {
             .navigate().to("Docs");
 
         docsPage.menu()
-            .navigate().to("Extensions");
+            .navigate().select("Extensions");
 
         docsPage.content()
             .verify()

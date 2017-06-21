@@ -15,6 +15,7 @@ import org.jboss.arquillian.drone.api.annotation.Drone;
 import org.jboss.arquillian.graphene.page.Page;
 import org.jboss.arquillian.junit.Arquillian;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
@@ -162,6 +163,7 @@ public class MainPageTest {
     }
 
     @Test
+    @Ignore("The number of events may change during time")
     public void should_have_section_upcoming_events_with_two_event_entries() throws Exception {
         mainPage.content()
             .verify()

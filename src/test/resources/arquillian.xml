@@ -4,6 +4,7 @@
 
   <extension qualifier="webdriver">
     <property name="browser">${browser:chrome}</property>
+    <property name="dimensions">full</property>
   </extension>
 
 </arquillian>
